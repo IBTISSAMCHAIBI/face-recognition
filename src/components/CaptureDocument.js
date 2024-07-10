@@ -34,7 +34,7 @@ function CaptureDocument() {
 
     const fetchSavedSelfie = async () => {
         try {
-            const response = await fetch('http://127.0.0.1:5000/get-screenshot', {
+            const response = await fetch('https://fast-headland-78341-9e50bc1b9fb2.herokuapp.com/get-screenshot', {
                 method: 'GET',
             });
             const blob = await response.blob();
@@ -54,7 +54,7 @@ function CaptureDocument() {
         formData.append('selfie_image', selfieImage);
 
         try {
-            const response = await fetch('http://127.0.0.1:5000/match_faces', {
+            const response = await fetch('https://fast-headland-78341-9e50bc1b9fb2.herokuapp.com/match_faces', {
                 method: 'POST',
                 body: formData,
             });

@@ -177,7 +177,7 @@ const predictWebcam = async () => {
     };
     const fetchScreenshot = async () => {
       try {
-          const response = await fetch('http://127.0.0.1:5000/get-screenshot');
+          const response = await fetch('https://fast-headland-78341-9e50bc1b9fb2.herokuapp.com/get-screenshot');
           if (response.ok) {
               const blob = await response.blob();
               const url = URL.createObjectURL(blob);
