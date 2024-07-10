@@ -1,0 +1,82 @@
+.verification-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+.verification-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.capture-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.capture-container h2 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.capture-button {
+  padding: 10px 20px;
+  background-color:#f0b90b;;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.capture-button:hover {
+  background-color:#f0b90b;;
+}
+
+.webcam {
+  margin-bottom: 10px;
+}
+
+.image-preview {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.preview-image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.verification-form {
+  text-align: center;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: #d9534f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result-container {
+  text-align: center;
+}
+
+.result-container h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
