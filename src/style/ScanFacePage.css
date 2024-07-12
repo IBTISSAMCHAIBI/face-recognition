@@ -1,0 +1,88 @@
+.scan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+  }
+  
+  .left-section {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 2em;
+    color: #28314a;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1em;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 1em;
+    color: #28314a;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .right-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .scan-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .instruction {
+    font-size: 1em;
+    color: #6c757d;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .continue-button {
+    background-color: #28314a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  .continue-button:hover {
+    background-color: #1f2836;
+  }
+  

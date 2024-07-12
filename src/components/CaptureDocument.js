@@ -10,7 +10,7 @@ function CaptureDocument() {
     const [result, setResult] = useState(null);
     const [error, setError] = useState(null);
     const [showIdWebcam, setShowIdWebcam] = useState(false);
-    const [showSelfieWebcam, setShowSelfieWebcam] = useState(false);
+    // const [showSelfieWebcam, setShowSelfieWebcam] = useState(false);
     const [idImageUrl, setIdImageUrl] = useState(null);
     const [selfieImageUrl, setSelfieImageUrl] = useState(null);
     const webcamRef = useRef(null);
@@ -34,7 +34,7 @@ function CaptureDocument() {
 
     const fetchSavedSelfie = async () => {
         try {
-            const response = await fetch('https://fast-headland-78341-9e50bc1b9fb2.herokuapp.com/get-screenshot', {
+            const response = await fetch('http://127.0.0.1:5000/get-screenshot', {
                 method: 'GET',
             });
             const blob = await response.blob();
@@ -54,7 +54,7 @@ function CaptureDocument() {
         formData.append('selfie_image', selfieImage);
 
         try {
-            const response = await fetch('https://fast-headland-78341-9e50bc1b9fb2.herokuapp.com/match_faces', {
+            const response = await fetch('http://127.0.0.1:5000/match_faces', {
                 method: 'POST',
                 body: formData,
             });
